@@ -1,6 +1,7 @@
 -- Set <space> as the leader keyini
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
+vim.opt.shadafile = 'none'
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 vim.o.tabstop = 4
